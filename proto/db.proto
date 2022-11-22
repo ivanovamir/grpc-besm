@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+package main;
+
+option go_package = "./proto";
+
+service DB {
+  rpc DBUpdate(UpdateRequest) returns (UpdateResponse) {}
+}
+
+message UpdateRequest {
+  string link = 1;
+}
+
+message UpdateResponse {
+  bool error = 1;
+}

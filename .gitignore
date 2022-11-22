@@ -1,0 +1,8 @@
+### Ignore grpc_files
+
+# Ignore .idea
+.idea/*
+
+# Ignore .env
+.env
+

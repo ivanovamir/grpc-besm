@@ -1,0 +1,10 @@
+srv:
+  port: "8082"
+  conn: "tcp"
+
+db:
+  host: "localhost"
+  username: "amir"
+  dbname: "test2"
+  port: "5432"
+  
